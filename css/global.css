@@ -9,6 +9,18 @@
   font-family: Arial, sans-serif;
 }
 
+h3 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 5.5rem;
+}
+
+h2 span {
+  font-size: 5.5rem;
+}
+
 body {
   height: 1600px;
 }
@@ -19,6 +31,11 @@ html {
 
 img {
   width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 0.4rem;
 }
 
 /*# sourceMappingURL=global.css.map */
